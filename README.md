@@ -11,7 +11,7 @@ I will dive into socket level for now...
 What is a socket?
 Consider a bidirectional communication channel, the sockets are the endpoints of this communication channel.
 
-Basically a socket is like a file descriptor. like normal file. But it is created in kernel level. data is written into it permanently and once connection is killed, this data is gone also.
+Basically a socket is like a file descriptor. like normal file. But it is created in kernel level. data is written into it temporarily and once connection is killed, this data is gone also.
 
 Socket API:
 import socket
